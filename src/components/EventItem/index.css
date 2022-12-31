@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.each-event-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 5px;
+  color: white;
+  font-family: 'Roboto';
+}
+.event-image {
+  width: 200px;
+  height: 100%;
+}
+.event-button {
+  padding: 0px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.event-name {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.event-location {
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #f8fafc;
+}
